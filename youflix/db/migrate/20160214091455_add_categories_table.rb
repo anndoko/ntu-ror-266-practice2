@@ -5,7 +5,7 @@ class AddCategoriesTable < ActiveRecord::Migration
     end
     
     # Create a join table
-    create_table :connectoins do |t|
+    create_table :connections do |t|
       t.integer :video_id
       t.integer :category_id
     end
