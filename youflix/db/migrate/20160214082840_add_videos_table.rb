@@ -5,6 +5,6 @@ class AddVideosTable < ActiveRecord::Migration
       t.text :description
       
       t.timestamp
-  	end
+    end
   end
 end
